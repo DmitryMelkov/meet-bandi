@@ -1,0 +1,105 @@
+//main: style.less
+
+.intro {
+  padding-top: 70px;
+  background-image: url("../img/intro/intro-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 800px;
+  @media (max-width: 600px) {
+    height: 600px;
+  }
+  &__container {
+    margin-top: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 600px) {
+      margin-top: 150px;
+    }
+  }
+}
+
+.intro__title {
+  display: flex;
+  &-one {
+    font-weight: 300;
+    color: @color-white;
+    margin-right: 10px;
+  }
+  &-two {
+    font-weight: 700;
+    color: @color-white;
+  }
+}
+
+.intro__subtitle {
+  display: flex;
+  &-one {
+    font-weight: 300;
+    color: @color-text-green;
+    margin-right: 10px;
+  }
+  &-two {
+    font-weight: 300;
+    color: @color-white;
+  }
+}
+
+.intro__text {
+  display: block;
+  font-weight: 300;
+  color: @color-white;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -64px;
+    width: 32px;
+    height: 1px;
+    background-color: @color-hover;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: -64px;
+    width: 32px;
+    height: 1px;
+    background-color: @color-hover;
+  }
+}
+
+.intro__social {
+  display: flex;
+  margin-top: 100px;
+  &-icon {
+    margin-right: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+    &-twitter {
+      background-image: url("../img/intro/twitter.png");
+    }
+    &-facebook {
+      background-image: url("../img/intro/facebook.png");
+    }
+    &-google+ {
+      background-image: url("../img/intro/google+.png");
+    }
+    &-drible {
+      background-image: url("../img/intro/dribbble.png");
+    }
+  }
+
+
+}

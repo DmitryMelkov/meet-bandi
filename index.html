@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Meet Brandi</title>
+  </head>
+  <body>
+    <header class="header fixed">
+      <div class="container">
+        <div class="header__container">
+          <button class="header__menu-burger" id="nav_toggle" aria-label="Меню">
+            <span class="header__menu-burger-line"></span>
+            <span class="header__menu-burger-line"></span>
+            <span class="header__menu-burger-line"></span>
+          </button>
+
+          <div class="header__logo">
+            <span class="header__logo-span">Brandi</span>
+            <span class="header__logo-text">I'am your tag line</span>
+          </div>
+
+          <nav class="header__nav" id="nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a data-goto=".intro" href="#" class="header__nav-link">Home</a>
+              </li>
+              <li class="header__nav-item">
+                <a data-goto=".slider" href="#" class="header__nav-link">Features</a>
+              </li>
+              <li class="header__nav-item">
+                <a data-goto=".cards" href="#" class="header__nav-link">Works</a>
+              </li>
+              <li class="header__nav-item">
+                <a data-goto=".form" href="#" class="header__nav-link">Team</a>
+              </li>
+              <li class="header__nav-item">
+                <a data-goto=".accordion" href="#" class="header__nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <!-- intro -->
+      <section class="intro">
+        <div class="container">
+          <div class="intro__container">
+            <div class="intro__title">
+              <h1 class="intro__title-one">Meet</h1>
+              <h1 class="intro__title-two">Brandi</h1>
+            </div>
+            <div class="intro__subtitle">
+              <h2 class="intro__subtitle-one">/creative</h2>
+              <h2 class="intro__subtitle-two">one page template</h2>
+            </div>
+            <p class="intro__text">We are a team of professionals</p>
+            <div class="intro__social">
+              <div class="intro__social-icon intro__social-icon-twitter"></div>
+              <div class="intro__social-icon intro__social-icon-facebook"></div>
+              <div class="intro__social-icon intro__social-icon-google"></div>
+              <div class="intro__social-icon intro__social-icon-drible"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- features -->
+      <section class="features">
+        <div class="container">
+          <div class="features__container">
+            <h2 class="section__title">Features</h2>
+            <div class="section__heart"></div>
+            <ul class="features__cards">
+              <li class="features__cards-item">
+                <div class="features__cards-img features__cards-img-one"></div>
+                <div class="features__cards-description">
+                  <h3 class="features__cards-description-title">Branding</h3>
+                  <p class="features__cards-description-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore
+                  </p>
+                </div>
+              </li>
+              <li class="features__cards-item">
+                <div class="features__cards-img features__cards-img-two"></div>
+                <div class="features__cards-description">
+                  <h3 class="features__cards-description-title">Development</h3>
+                  <p class="features__cards-description-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore
+                  </p>
+                </div>
+              </li>
+              <li class="features__cards-item">
+                <div class="features__cards-img features__cards-img-three"></div>
+                <div class="features__cards-description">
+                  <h3 class="features__cards-description-title">Consulting</h3>
+                  <p class="features__cards-description-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- works -->
+      <section class="works">
+        <div class="container">
+          <div class="works__container">
+            <h2 class="section__title">Features</h2>
+            <div class="section__heart"></div>
+            <p class="section__p">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+              rem aperiam, eaque ipsa quae ab illo inventore
+            </p>
+          </div>
+          <nav class="works__nav">
+            <ul class="works__nav-list">
+              <li class="works__nav-item active">All</li>
+              <li class="works__nav-item">Branding</li>
+              <li class="works__nav-item">Web</li>
+              <li class="works__nav-item">Logo Design</li>
+              <li class="works__nav-item">Photograthy</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="works__gallery">
+          <div class="works__gallery-item">
+            <div class="works__gallery-item-img">
+              <img src="./img/works/1.png" alt="" />
+              <div class="works__gallery-item-info">
+                <div class="works__gallery-item-info-icon"></div>
+                <h3 class="works__gallery-item-info-title">Labore et dolore magnam</h3>
+                <p class="works__gallery-item-info-text">Photography</p>
+              </div>
+            </div>
+          </div>
+          <div class="works__gallery-item">
+            <div class="works__gallery-item-img">
+              <img src="./img/works/2.png" alt="" />
+              <div class="works__gallery-item-info">
+                <div class="works__gallery-item-info-icon"></div>
+                <h3 class="works__gallery-item-info-title">Labore et dolore magnam</h3>
+                <p class="works__gallery-item-info-text">Photography</p>
+              </div>
+            </div>
+          </div>
+          <div class="works__gallery-item">
+            <div class="works__gallery-item-img">
+              <img src="./img/works/3.png" alt="" />
+              <div class="works__gallery-item-info">
+                <div class="works__gallery-item-info-icon"></div>
+                <h3 class="works__gallery-item-info-title">Labore et dolore magnam</h3>
+                <p class="works__gallery-item-info-text">Photography</p>
+              </div>
+            </div>
+          </div>
+          <div class="works__gallery-item">
+            <div class="works__gallery-item-img">
+              <img src="./img/works/4.png" alt="" />
+              <div class="works__gallery-item-info">
+                <div class="works__gallery-item-info-icon"></div>
+                <h3 class="works__gallery-item-info-title">Labore et dolore magnam</h3>
+                <p class="works__gallery-item-info-text">Photography</p>
+              </div>
+            </div>
+          </div>
+          <div class="works__gallery-item">
+            <div class="works__gallery-item-img">
+              <img src="./img/works/5.png" alt="" />
+              <div class="works__gallery-item-info">
+                <div class="works__gallery-item-info-icon"></div>
+                <h3 class="works__gallery-item-info-title">Labore et dolore magnam</h3>
+                <p class="works__gallery-item-info-text">Photography</p>
+              </div>
+            </div>
+          </div>
+          <div class="works__gallery-item">
+            <div class="works__gallery-item-img">
+              <img src="./img/works/6.png" alt="" />
+              <div class="works__gallery-item-info">
+                <div class="works__gallery-item-info-icon"></div>
+                <h3 class="works__gallery-item-info-title">Labore et dolore magnam</h3>
+                <p class="works__gallery-item-info-text">Photography</p>
+              </div>
+            </div>
+          </div>
+          <div class="works__gallery-item">
+            <div class="works__gallery-item-img">
+              <img src="./img/works/7.png" alt="" />
+              <div class="works__gallery-item-info">
+                <div class="works__gallery-item-info-icon"></div>
+                <h3 class="works__gallery-item-info-title">Labore et dolore magnam</h3>
+                <p class="works__gallery-item-info-text">Photography</p>
+              </div>
+            </div>
+          </div>
+          <div class="works__gallery-item">
+            <div class="works__gallery-item-img">
+              <img src="./img/works/1.png" alt="" />
+              <div class="works__gallery-item-info">
+                <div class="works__gallery-item-info-icon"></div>
+                <h3 class="works__gallery-item-info-title">Labore et dolore magnam</h3>
+                <p class="works__gallery-item-info-text">Photography</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- team -->
+      <section class="team">
+        <div class="container">
+          <div class="team__container">
+            <h2 class="section__title">Meet our team</h2>
+            <div class="section__heart"></div>
+            <p class="section__p">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+              rem aperiam, eaque ipsa quae ab illo inventore
+            </p>
+            <ul class="team__inner">
+              <li class="team__content">
+                <div class="team__content-img">
+                  <img src="./img/team/1.png" alt="" />
+                  <div class="team__content-social">
+                    <h3 class="team__content-social-title">Nemo enim ipsam voluptatem quia voluptas</h3>
+                    <p class="team__content-social-text">
+                      sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+                    </p>
+                    <div class="team__content-social-icons">
+                      <div class="team__content-social-icons-object team__content-social-icons-twitter"></div>
+                      <div class="team__content-social-icons-object team__content-social-icons-fb"></div>
+                      <div class="team__content-social-icons-object team__content-social-icons-google"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team__content-info">
+                  <span class="team__content-info-title">John Filmr Doe</span>
+                  <span class="team__content-info-text">Managing Director</span>
+                </div>
+              </li>
+              <li class="team__content">
+                <div class="team__content-img">
+                  <img src="./img/team/2.png" alt="" />
+                  <div class="team__content-social">
+                    <h3 class="team__content-social-title">Nemo enim ipsam voluptatem quia voluptas</h3>
+                    <p class="team__content-social-text">
+                      sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+                    </p>
+                    <div class="team__content-social-icons">
+                      <div class="team__content-social-icons-object team__content-social-icons-twitter"></div>
+                      <div class="team__content-social-icons-object team__content-social-icons-fb"></div>
+                      <div class="team__content-social-icons-object team__content-social-icons-google"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team__content-info">
+                  <span class="team__content-info-title">Chystine Hineu</span>
+                  <span class="team__content-info-text">Lead Designer</span>
+                </div>
+              </li>
+              <li class="team__content">
+                <div class="team__content-img">
+                  <img src="./img/team/3.png" alt="" />
+                  <div class="team__content-social">
+                    <h3 class="team__content-social-title">Nemo enim ipsam voluptatem quia voluptas</h3>
+                    <p class="team__content-social-text">
+                      sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+                    </p>
+                    <div class="team__content-social-icons">
+                      <div class="team__content-social-icons-object team__content-social-icons-twitter"></div>
+                      <div class="team__content-social-icons-object team__content-social-icons-fb"></div>
+                      <div class="team__content-social-icons-object team__content-social-icons-google"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team__content-info">
+                  <span class="team__content-info-title">Martine Matrone</span>
+                  <span class="team__content-info-text">Lead Developer</span>
+                </div>
+              </li>
+              <li class="team__content">
+                <div class="team__content-img">
+                  <img src="./img/team/4.png" alt="" />
+                  <div class="team__content-social">
+                    <h3 class="team__content-social-title">Nemo enim ipsam voluptatem quia voluptas</h3>
+                    <p class="team__content-social-text">
+                      sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+                    </p>
+                    <div class="team__content-social-icons">
+                      <div class="team__content-social-icons-object team__content-social-icons-twitter"></div>
+                      <div class="team__content-social-icons-object team__content-social-icons-fb"></div>
+                      <div class="team__content-social-icons-object team__content-social-icons-google"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team__content-info">
+                  <span class="team__content-info-title">Steve Flaulkin</span>
+                  <span class="team__content-info-text">Sr. UI Designer</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- facts -->
+      <section class="facts">
+        <div class="container">
+          <div class="facts__container">
+            <h2 class="section__title">Sum fan facts</h2>
+            <div class="section__heart facts__heart"></div>
+            <ul class="facts__inner">
+              <li class="facts__item">
+                <div class="facts__item-img facts__item-img-clock"></div>
+                <span class="facts__item-title">3200</span>
+                <span class="facts__item-text">hours of work</span>
+              </li>
+              <li class="facts__item">
+                <div class="facts__item-img facts__item-img-friends"></div>
+                <span class="facts__item-title">120</span>
+                <span class="facts__item-text">Satisfied clients</span>
+              </li>
+              <li class="facts__item">
+                <div class="facts__item-img facts__item-img-rocket"></div>
+                <span class="facts__item-title">360</span>
+                <span class="facts__item-text">project delivered</span>
+              </li>
+              <li class="facts__item">
+                <div class="facts__item-img facts__item-img-cup"></div>
+                <span class="facts__item-title">42</span>
+                <span class="facts__item-text">awards win</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- form -->
+      <section class="form">
+        <div class="container">
+          <div class="section__container">
+            <h2 class="section__title">Let's discuss</h2>
+            <div class="section__heart"></div>
+            <p class="section__p">
+              Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+            </p>
+          </div>
+          <div class="form__inner">
+            <div class="form__left">
+              <h3 class="form__left-title">Cras at ultrices erat, sed vulputate!</h3>
+              <p class="form__left-text">
+                2345 Setwant natrer, 1234, Washington. United States. (401) 1234 567 hello@brandi.com ww.brandi.com
+              </p>
+            </div>
+            <form
+              class="form__center"
+              action="https://jsonplaceholder.typicode.com/posts "
+              autocomplete="on"
+              method="POST"
+            >
+              <h3 class="form__center-title">Say Hello!</h3>
+              <div class="form__center-item">
+                <label class="form__center-label">
+                  <input class="form__center-name" type="text" name="name" placeholder="Name" />
+                </label>
+                <label class="form__center-label">
+                  <input class="form__center-email" type="email" name="email" placeholder="Email" />
+                </label>
+              </div>
+              <div class="form__center-item">
+                <label class="form__center-label">
+                  <input class="form__center-message" type="text" name="message" placeholder="Message" />
+                </label>
+              </div>
+              <div class="form__center-item">
+                <button class="form__center-btn" type="submit">Send message</button>
+              </div>
+            </form>
+            <div class="form__right">
+              <div class="form__right-social">
+                <div class="form__right-social-icon form__right-social-be"></div>
+                <div class="form__right-social-icon form__right-social-twitter"></div>
+                <div class="form__right-social-icon form__right-social-drible"></div>
+                <div class="form__right-social-icon form__right-social-forst"></div>
+                <div class="form__right-social-icon form__right-social-google"></div>
+                <div class="form__right-social-icon form__right-social-fb"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form__map" id="yandex-map"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__one">
+            <span class="footer__one-logo">Brandi</span>
+            <p class="footer__one-text">
+              eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="footer__two">
+            <span class="footer__two-title">Subscribe</span>
+            <label class="footer__two-label">
+              <input class="footer__two-message" type="text" name="message" />
+              <button type="submit" class="footer__two-message-img"></button>
+            </label>
+            <p class="footer__two-text">eusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="footer__three">
+            <span class="footer__three-title">Explore</span>
+            <ul class="footer__three-list">
+              <li class="footer__three-item">
+                <a href="#" class="footer__three-link">Envato</a>
+              </li>
+              <li class="footer__three-item">
+                <a href="#" class="footer__three-link">Themecurve</a>
+              </li>
+              <li class="footer__three-item">
+                <a href="#" class="footer__three-link">CreativeShowCase</a>
+              </li>
+              <li class="footer__three-item">
+                <a href="#" class="footer__three-link">Freebiescurve</a>
+              </li>
+              <li class="footer__three-item">
+                <a href="#" class="footer__three-link">Themeforest</a>
+              </li>
+              <li class="footer__three-item">
+                <a href="#" class="footer__three-link">Microsoft</a>
+              </li>
+              <li class="footer__three-item">
+                <a href="#" class="footer__three-link">Google</a>
+              </li>
+              <li class="footer__three-item">
+                <a href="#" class="footer__three-link">Yahoo</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__four">
+            <p class="footer__four-text">
+              Created with love by
+              <span class="footer__four-text-span">themecurve</span> , exclusive for kreativeshowcase
+            </p>
+            <span class="footer__four-span">© 2014 Brandi. All Rights Reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- yandex map -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

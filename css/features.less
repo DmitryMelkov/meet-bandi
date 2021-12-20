@@ -1,0 +1,53 @@
+//main: style.less
+
+
+
+.features {
+  background-color: #f4f7f9;
+
+}
+
+.features__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &-item {
+    display: flex;
+    margin-right: 30px;
+    @media (max-width: 1200px) {
+      margin-top: 30px;
+    }
+
+  }
+  &-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    &-one {
+      background-image: url("../img/features/1.png");
+    }
+    &-two {
+      background-image: url("../img/features/2.png");
+    }
+    &-three {
+      background-image: url("../img/features/3.png");
+    }
+  }
+
+  &-description {
+    max-width: 300px;
+    margin-left: 15px;
+    &-title {
+      font-weight: 700;
+    }
+    &-text {
+      font-size: 13px;
+      line-height: 21px;
+    }
+    @media (max-width: 1200px) {
+      max-width: 200px;
+    }
+  }
+}
